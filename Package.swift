@@ -30,7 +30,7 @@ let package = Package(
     [
         .target( 
             name: "Countly", 
-            dependencies: ["CrashReporter"],
+            dependencies: ["PLCrashReporter"],
             path: ".",
 
             exclude: 
