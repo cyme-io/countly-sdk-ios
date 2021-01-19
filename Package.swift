@@ -20,17 +20,12 @@ let package = Package(
             name: "Countly",
             targets: ["Countly"]),
     ],
-    dependencies: [
-        .package(
-            url: "https://github.com/microsoft/plcrashreporter",
-            from: "1.8.1"
-        )
-    ],
+    
     targets: 
     [
         .target( 
             name: "Countly", 
-            dependencies: ["CrashReporter"],
+            dependencies: [],
             path: ".",
 
             exclude: 
