@@ -8,10 +8,8 @@
 #import <mach-o/dyld.h>
 #include <execinfo.h>
 
-#if __has_include(<CrashReporter/CrashReporter.h>)
     #define COUNTLY_PLCRASHREPORTER_EXISTS true
     #import <CrashReporter/CrashReporter.h>
-#else
 
 #endif
 
